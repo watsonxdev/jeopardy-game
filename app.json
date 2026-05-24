@@ -3,7 +3,7 @@
     "name": "jeopardy-game",
     "slug": "jeopardy-game",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/images/icon.png",
     "scheme": "jeopardygame",
     "userInterfaceStyle": "automatic",

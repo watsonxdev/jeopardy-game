@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Dimensions,
   ImageBackground,
@@ -17,10 +17,7 @@ export default function App() {
   const [category, setCategory] = useState<string>("");
   const [value, setValue] = useState(0);
 
-  const openQuestion = (
-    newCategory: React.SetStateAction<string>,
-    newValue: number | React.SetStateAction<string>,
-  ) => {
+  const openQuestion = (newCategory: string, newValue: number) => {
     setCategory(newCategory);
     setValue(newValue);
     setScreen("question");

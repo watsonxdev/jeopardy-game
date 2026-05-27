@@ -32,6 +32,7 @@ export default function App() {
             uri: "https://codehs.com/uploads/7743580dc103ad3b519bb04c5e08bc39",
           }}
           style={styles.startScreen}
+          imageStyle={{ transform: [{ rotate: "180deg" }] }}
         >
           <TouchableOpacity
             style={styles.startButton}
@@ -168,6 +169,7 @@ export default function App() {
             uri: "https://codehs.com/uploads/aa8256a8f2ba3e1aa39a866255473196",
           }}
           style={styles.resultScreen}
+          imageStyle={{ transform: [{ rotate: "180deg" }] }}
         >
           <Text style={styles.resultText}>WRONG</Text>
 
@@ -187,6 +189,7 @@ export default function App() {
             uri: "https://codehs.com/uploads/78bc48ac7cbc21138528b87c2a180dee",
           }}
           style={styles.resultScreen}
+          imageStyle={{ transform: [{ rotate: "180deg" }] }}
         >
           <Text style={styles.resultText}>CORRECT</Text>
 
